@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+      <style>
+             .WU{
+          background-image: url("../images/WU.jpg");
+          background-color: none;
+          background-size: 100%;
+        }
+      </style>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body class="WU">
+        <img src="../images/logo.png" alt="logo" class="logo">
+        <div class="topnav">
+          <a class="active" href="../index.html">Home</a>
+          <a href="../about.html">About</a>
+          <a href="../contact.html">Contact</a>
+            <a href="../references.html">References</a>
+          <div class="search-container">
+          </div>
+        </div>
+        <div class="container">
+          <div class="UOAinfo">
+            <button type="button" class="collapsible">Press to reveal possible courses at Auckland University<br>press "control f" on a windows device and "command f" on an apple device to search for specific courses after expanding</button>
+<div class="collapscontent">
+  <li>
+Arts, Design and Communication
+</li><li>
+Business and Management
+</li><li>
+Computer Science and Mathematics
+</li><li>
+Engineering
+</li><li>
+Education
+</li><li>
+Health
+</li><li>
+Law
+</li><li>
+Māori and Indigenous Studies
+</li><li>
+Natural Environment
+</li><li>
+Psychology
+</li><li>
+Science
+</li><li>
+Social Sciences
+</li><li>
+Sport and Human Movement
+</li>
+<br>
+Within these courses there are also multiple spicific sunjects that you can chose from. To see these, simply click on the course that you wish to take within the linked website.
+ </div>
+ <br>Waikato University website:<br>
+ <a href="https://www.waikato.ac.nz/study/options/subject-areas/" class="linklook">https://www.waikato.ac.nz/study/options/subject-areas/</a>
+ <p>Before you use this website or any others you first need to know what you want 
+            to study during your time at the university. You can see what Waikato 
+            University offers by clicking the link provided 
+            and clicking on the course to read about the more spicific subjects. 
+            Alternativly you can use this website and read the couses that a spicifc university offers.
+</p>
+</div>
+        <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>
